@@ -10,9 +10,12 @@ all grbl mks dlc32 esp commands https://github.com/costycnc/esp32-micropython-wi
 
 ==================================================================
 costycnc foam cutter  https://www.costycnc.it
+
           when buy a new mks dlc32 is not activate AP ... so ... is not available on wifi networks window,
           so you can comunicate with mks dlc only serial.
+          
 I inspired from here https://github.com/makerbase-mks/MKS-DLC32/issues/12
+
           So open a serial terminal , connect with mks dlc over serial port and send these commands
           $ESP100=xxxxxx  (your name router home)
           $ESP101=xxxxxx  (Your password router home)
