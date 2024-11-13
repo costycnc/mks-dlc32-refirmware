@@ -1,4 +1,7 @@
-$115=on
+          $ESP100=xxxxxx  (your name router home)
+          $ESP101=xxxxxx  (Your password router home)
+          $ESP110=STA (Set/Get radio state which can be STA, AP, BT, OFF)
+          $ESP115=ON
 # mks-dlc2-refirmware
 Firmare for costycnc foam cutter machine
 
