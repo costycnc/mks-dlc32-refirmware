@@ -1,4 +1,5 @@
 help https://github.com/bdring/Grbl_Esp32/wiki
+
           $ESP100=xxxxxx  (your name router home)
           $ESP101=xxxxxx  (Your password router home)
           $ESP110=STA (Set/Get radio state which can be STA(router), AP(local), BT, OFF)
