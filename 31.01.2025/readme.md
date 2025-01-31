@@ -47,7 +47,7 @@ In this mode will see that this metod working for you.If name dlc_cfg.txt is not
 
 This firmware:
 
-[https://github.com/makerbase-mks/MKS-DLC32/tree/main/MKS-DLC32-main/firmware/TS35/Laser/Normal/Board_V2.0/](https://github.com/makerbase-mks/MKS-DLC32/blob/main/MKS-DLC32-main/firmware/TS35/Laser/Normal/Board_V2.0/V2.0.8_H35_20211222_N.bin)
+[https://github.com/makerbase-mks/MKS-DLC32/tree/main/MKS-DLC32-main/firmware/TS35/Laser/Normal/Board_V2.0/V2.0.8_H35_20211222_N.bin](https://github.com/makerbase-mks/MKS-DLC32/blob/main/MKS-DLC32-main/firmware/TS35/Laser/Normal/Board_V2.0/V2.0.8_H35_20211222_N.bin)
 
 C:\Users\****\MKS-DLC32-main\MKS-DLC32-main\firmware\TS35\Laser\Normal\Board_V2.0\V2.0.8_H35_20211222_ON.bin
 
