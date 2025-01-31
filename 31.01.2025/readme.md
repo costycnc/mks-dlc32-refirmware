@@ -45,6 +45,8 @@ In this mode will see that this metod working for you.If name dlc_cfg.txt is not
 
 [MSG:Start mDNS with hostname:http://grblesp.local/]
 
+This firmware:
+
 C:\Users\****\MKS-DLC32-main\MKS-DLC32-main\firmware\TS35\Laser\Normal\Board_V2.0\V2.0.8_H35_20211222_ON.bin
 
 
