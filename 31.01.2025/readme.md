@@ -51,5 +51,8 @@ This firmware:
 
 C:\Users\****\MKS-DLC32-main\MKS-DLC32-main\firmware\TS35\Laser\Normal\Board_V2.0\V2.0.8_H35_20211222_ON.bin
 
+![image](https://github.com/user-attachments/assets/200ae15f-8bfc-4819-82d0-b92283e1092c)
+
+
 
 
