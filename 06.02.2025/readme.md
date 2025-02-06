@@ -1,6 +1,5 @@
-![image]([https://github.com/user-attachments/assets/200ae15f-8bfc-4819-82d0-b92283e1092c](https://raw.githubusercontent.com/costycnc/mks-dlc32-refirmware/refs/heads/main/06.02.2025/index.png))
+![image](https://github.com/user-attachments/assets/7242dbad-dd0e-4953-9d5a-665175a39bca)
 
-![image]([https://github.com/user-attachments/assets/200ae15f-8bfc-4819-82d0-b92283e1092c](https://raw.githubusercontent.com/costycnc/mks-dlc32-refirmware/refs/heads/main/06.02.2025/costycnc.png))
 
 If insert dlc_cfg.txt in your sdcard, and insert sdcard in mks dlc32 board and after insert power, at init the program will be read the sdcard and if find dlc_cfg.txt, but … 
 
