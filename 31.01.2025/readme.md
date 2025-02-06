@@ -1,47 +1,46 @@
-If insert dlc_cfg.txt in your sdcard, and insert sdcard in mks dlc32 board and after insert power, at init the program will be read the sdcard and if find dlc_cfg.txt, but … 
+If you insert a file named dlc_cfg.txt into your SD card, place the SD card into the MKS DLC32 board, and then power it on, the program will initialize and read the SD card. If it finds the dlc_cfg.txt file, it will process its contents.
 
-If watch the code in file Grbl_esp32>src>mks>Mks_updata.cpp find here some conditions:
+When examining the code in the file Grbl_esp32 > src > mks > Mks_updata.cpp, you can find specific conditions that determine how the program handles the configuration file:
 
+cpp
+Copy
 void mks_cfg_find(void) {
     String p;
     char send_data[128];
 
     p = tf.readFileLine(CFG_FILE_PATG, mks_updata.updata_line);
-    if( (strstr(p.c_str() ,"-") == NULL) 
-         && (strstr(p.c_str() ,"/*") == NULL) 
-         && (strstr(p.c_str() ,"*-") == NULL) 
-         && (strstr(p.c_str() ,"//") == NULL)
-         && (p.length() < 127) 
-        )  
+    if ((strstr(p.c_str(), "-") == NULL) 
+        && (strstr(p.c_str(), "/*") == NULL) 
+        && (strstr(p.c_str(), "*-") == NULL) 
+        && (strstr(p.c_str(), "//") == NULL)
+        && (p.length() < 127)) 
     {   
-        if( (strstr(p.c_str() ,"=") != NULL)) {
+        if ((strstr(p.c_str(), "=") != NULL)) {
             mks_updata.is_have_data_ud = true;
-        }else if(strstr(p.c_str() ,"[ESP110]") != NULL) {
+        } else if (strstr(p.c_str(), "[ESP110]") != NULL) {
             mks_updata.is_have_data_ud = true;
-        }else if(strstr(p.c_str() ,"[ESP100]") != NULL) {
+        } else if (strstr(p.c_str(), "[ESP100]") != NULL) {
             mks_updata.is_have_data_ud = true;
-        }else if(strstr(p.c_str() ,"[ESP101]") != NULL) {
+        } else if (strstr(p.c_str(), "[ESP101]") != NULL) {
             mks_updata.is_have_data_ud = true;
-        }else if(strstr(p.c_str() ,"[ESP131]") != NULL) {
+        } else if (strstr(p.c_str(), "[ESP131]") != NULL) {
             mks_updata.is_have_data_ud = true;
-        }else {
+        } else {
             mks_updata.is_have_data_ud = false;
         }
     }
+}
+This code ensures that a line is ignored if it contains any of the following characters: -, /*, *-, //, or if the line exceeds 127 characters.
 
-This code did that the line is ommited if command contain one of these characters - , /* , _ , // and line not more as 127 characters
+A line is accepted if it contains one of the following: =, [ESP110], [ESP100], [ESP101], or [ESP131].
 
-And a line is accepted if have one of this = , [ESP110], [ESP100], [ESP101] and [ESP131] 
+Initially, when I tried to configure the system, I added [ESP115]ON to activate Wi-Fi. However, after reviewing this code, I realized that only the specific commands listed above are accepted. This explains why my router named "TIM-32883215" was not connecting via the SD card configuration. After investigating, I discovered that the program only processes the predefined commands.
 
-Also when maked probe ,first to find this, i put [ESP115]ON for activate wifi , but after find this code i understand that accepted only these commands!
+Therefore, I recommend not changing or adding anything outside the accepted parameters.
 
-In my case the my router have name "TIM-32883215" and because not understand because not connect over sdcard i search myself and after find this i understand!
+Finally, if the program successfully finds and updates any parameters, it will rename dlc_cfg.txt to bkg_cfg.txt. This renaming indicates that the update process was successful. If the file name remains dlc_cfg.txt, it means an error occurred, and no updates were applied.
 
-For this i raccomended don not change or add anything!
-
-And finally if any parameters is find and changed by program the title of the dlc_cfg.txt will be changed in bkg_cfg.txt
-
-In this mode will see that this metod working for you.If name dlc_cfg.txt is not changed seem that happen a error and anything is update!
+This method allows you to verify whether the configuration update worked. If the file name changes to bkg_cfg.txt, the process was successful. If not, an error likely occurred, and no changes were made.
 
 [MSG:Start mDNS with hostname:http://grblesp.local/]
 
