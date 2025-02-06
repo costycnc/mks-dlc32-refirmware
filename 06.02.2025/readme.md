@@ -1,3 +1,7 @@
+![image](https://github.com/user-attachments/assets/200ae15f-8bfc-4819-82d0-b92283e1092c)
+
+![image](https://github.com/user-attachments/assets/200ae15f-8bfc-4819-82d0-b92283e1092c)
+
 If insert dlc_cfg.txt in your sdcard, and insert sdcard in mks dlc32 board and after insert power, at init the program will be read the sdcard and if find dlc_cfg.txt, but … 
 
 If watch the code in file Grbl_esp32>src>mks>Mks_updata.cpp find here some conditions:
