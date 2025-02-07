@@ -227,7 +227,7 @@ dpi:
 	  <a href="/index.html"><button class="btn">HOME PAGE</button></a>
 	  <button onclick="savegcodetomks1();" class="btn">Scrive on SDCARD</button>
 	  <hr>name file<input type="text" id="nfile" value="costycnc">.nc
-	  <!--a href="/command?commandText=%5BESP221%5D/costycnc.nc&PAGEID=0"><button class="btn">VIEW costycnc.nc</button></a--><hr>
+	  <a href="/command?commandText=%5BESP221%5D/costycnc.nc&PAGEID=0"><button class="btn">VIEW costycnc.nc</button></a><hr>
 <p><button onclick="xhr();" class="btn">EXECUTE costycnc.nc</button><hr>
 	  <input type="checkbox" id="contour" onchange="contoura();" class="btn1">only contour
   </div>
@@ -2064,7 +2064,7 @@ var p="" ;
           p += segment(i);
         }
       }
-      p += "G01 X"+firstx+" Y"+firsty+"\n"+"G01 Y0\n"+"G01 X0\nM05\n";
+      p += "G01 X"+firstx+" Y"+firsty+"\n"+"G01 Y0\n"+"G01 X0\nM5 S0\n";
           //#######################################################
 /*
 var xhr = new XMLHttpRequest();
