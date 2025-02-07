@@ -1,5 +1,7 @@
 If you insert a file named dlc_cfg.txt into your SD card, place the SD card into the MKS DLC32 board, and then power it on, the program will initialize and read the SD card. If it finds the dlc_cfg.txt file, it will process its contents.
 
+https://github.com/makerbase-mks/MKS-DLC32-FIRMWARE/blob/main/Firmware/Grbl_Esp32/src/mks/MKS_updata.cpp
+
 When examining the code in the file Grbl_esp32 > src > mks > Mks_updata.cpp, you can find specific conditions that determine how the program handles the configuration file:
 
 cpp
