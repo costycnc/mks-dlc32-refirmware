@@ -22,6 +22,13 @@ The firmware have a custom button costycnc
 
 ![image](https://github.com/user-attachments/assets/8c5ed82a-64e5-4d49-8a60-bd270e108cec)
 
+This button "Costycnc" open a custom page where you can create a text and transform quickly in a cutting path compatible with cnc foam cutter
+
+also you can find some usefuls tools like increase or decrease measure or a simple tool for rotate table.
+
+![image](https://github.com/user-attachments/assets/56e9e3e0-a4ea-432c-8c5b-05eb4573aaba)
+
+
 
 For more details, you can leave a comment here or ask questions in the open Facebook group CostyCNC https://www.facebook.com/groups/2260525320891608... You can also find more information on the official website https://www.costycnc.it.
 
