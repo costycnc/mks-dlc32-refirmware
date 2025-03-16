@@ -30,6 +30,10 @@ also you can find some usefuls tools like increase or decrease measure or a simp
 
 
 
-For more details, you can leave a comment here or ask questions in the open Facebook group CostyCNC https://www.facebook.com/groups/2260525320891608... You can also find more information on the official website https://www.costycnc.it.
+For more details, you can leave a comment here or ask questions in the open Facebook group CostyCNC https://www.facebook.com/groups/2260525320891608... 
+
+You can also find more information on the official website https://www.costycnc.it.
+
+Or watch some videos in my youtube channel https://www.youtube.com/@bobyca2003
 
 
