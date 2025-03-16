@@ -1,10 +1,10 @@
 **Refirmware costycnc with firmware mks dlc32**
 
-To upload firmware to mks dlc32 board you can use https://espressif.github.io/esptool-js/
+1.To upload firmware to mks dlc32 board you can use https://espressif.github.io/esptool-js/
 
 ![image](https://github.com/user-attachments/assets/2e341f5f-2b04-482d-8212-6cd64c96645c)
 
-Attention !!! The firmare need to be write at 0x000 address (so ... need to change 0x1000 to 0x0000)
+2.Attention !!! The firmare need to be write at 0x000 address (so ... need to change 0x1000 to 0x0000)
 
 ![image](https://github.com/user-attachments/assets/1605a431-d3b6-4e69-8237-f218a29441d3)
 
