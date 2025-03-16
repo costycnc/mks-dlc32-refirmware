@@ -2,11 +2,11 @@ Refirmware costycnc with firmware mks dlc32
 
 https://www.ebay.it/str/costycnc
 
+To upload firmware to mks dlc32 board you can use https://espressif.github.io/esptool-js/
 
+![image](https://github.com/user-attachments/assets/2e341f5f-2b04-482d-8212-6cd64c96645c)
 
-
-
-
+-------------------------------------------------------------------------------------
 
 **28byj-4MB.bin firmware is for:**
  
@@ -22,6 +22,7 @@ both with 28byj-48 steppers motor
 
 ![image](https://github.com/user-attachments/assets/c9190016-fa6e-44fa-906f-088bd7c65d54)
 
+------------------------------------------------------------------------------------------------
  
 nema17-4MB.bin firmware if for:
 
@@ -37,16 +38,14 @@ with nema17 steppers motor
 
 ![image](https://github.com/user-attachments/assets/3bdaaa8a-f745-44bd-9265-cf2f591602be)
 
+-------------------------------------------------------------------------------
+
 The firmware is same for all 4 machines ,difference is only $100,$101 and $102 steps/mm that for costycnc mini and hobby is 1024 and for
 costycnc medio and xbig is 100 
 
 All motors of 4 machines have 16 teeth head same as this:
 
 ![image](https://github.com/user-attachments/assets/967aca78-469b-4e21-9c8b-d2f761daaaca)
-
-To upload firmware to mks dlc32 board you can use https://espressif.github.io/esptool-js/
-
-![image](https://github.com/user-attachments/assets/2e341f5f-2b04-482d-8212-6cd64c96645c)
 
 The firmware have a custom button costycnc
 
