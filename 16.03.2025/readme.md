@@ -52,7 +52,8 @@ All motors of 4 machines have 16 teeth head same as this:
 
 The firmware have a custom button costycnc
 
-![image](https://github.com/user-attachments/assets/8c5ed82a-64e5-4d49-8a60-bd270e108cec)
+![image](https://github.com/user-attachments/assets/525a38bc-b2cd-4fb6-bfde-cd4a7a59090f)
+
 
 This button "Costycnc" open a custom page where you can create a text and transform quickly in a cutting path compatible with cnc foam cutter
 
