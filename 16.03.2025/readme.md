@@ -2,8 +2,8 @@ Refirmware costycnc with firmware mks dlc32
 
 https://www.ebay.it/str/costycnc
 
-
-28byj-4MB.bin firmware is for: 
+<span style="font-size: 20px;">28byj-4MB.bin firmware is for:</span>
+ 
 
 costycnc hobby https://www.ebay.it/itm/276615432745  
 
