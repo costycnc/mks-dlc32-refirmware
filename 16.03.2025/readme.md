@@ -18,6 +18,10 @@ To upload firmware to mks dlc32 board you can use https://espressif.github.io/es
 
 ![image](https://github.com/user-attachments/assets/2e341f5f-2b04-482d-8212-6cd64c96645c)
 
+The firmware have a custom button costycnc
+
+
+
 For more details, you can leave a comment here or ask questions in the open Facebook group CostyCNC https://www.facebook.com/groups/2260525320891608... You can also find more information on the official website https://www.costycnc.it.
 
 
