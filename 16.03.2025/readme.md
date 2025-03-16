@@ -16,3 +16,6 @@ All motors of 4 machines have 16 teeth head same as this ![image](https://github
 
 To upload firmware to mks dlc32 board you can use https://espressif.github.io/esptool-js/
 
+![image](https://github.com/user-attachments/assets/2e341f5f-2b04-482d-8212-6cd64c96645c)
+
+
