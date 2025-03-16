@@ -1,6 +1,4 @@
-Refirmware costycnc with firmware mks dlc32
-
-https://www.ebay.it/str/costycnc
+**Refirmware costycnc with firmware mks dlc32**
 
 To upload firmware to mks dlc32 board you can use https://espressif.github.io/esptool-js/
 
@@ -8,7 +6,7 @@ To upload firmware to mks dlc32 board you can use https://espressif.github.io/es
 
 -------------------------------------------------------------------------------------
 
-**28byj-4MB.bin firmware is for:**
+28byj-4MB.bin firmware is for:
  
 costycnc hobby https://www.ebay.it/itm/276615432745  
 
