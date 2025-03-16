@@ -3,16 +3,41 @@ Refirmware costycnc with firmware mks dlc32
 https://www.ebay.it/str/costycnc
 
 
-28byj-4MB.bin firmware if for costycnc hobby https://www.ebay.it/itm/276615432745 and costycnc mini https://www.ebay.it/itm/275132244800
-with 28byj-48 steppers motor
+28byj-4MB.bin firmware is for: 
 
-nema17-4MB.bin firmware if for costycnc medio [https://www.ebay.it/itm/276615432745](https://www.ebay.it/itm/274881085208) and costycnc xbig [https://www.ebay.it/itm/275132244800](https://www.ebay.it/itm/274881043594)
+costycnc hobby https://www.ebay.it/itm/276615432745  
+
+![image](https://github.com/user-attachments/assets/b341d39d-2b76-4944-bf3c-1c4b31c25afe)
+
+and costycnc mini https://www.ebay.it/itm/275132244800 
+
+![image](https://github.com/user-attachments/assets/a28b5a50-9a75-4f38-983e-c7055d7b4cea)
+
+both with 28byj-48 steppers motor 
+
+![image](https://github.com/user-attachments/assets/c9190016-fa6e-44fa-906f-088bd7c65d54)
+
+ 
+nema17-4MB.bin firmware if for:
+
+costycnc medio [https://www.ebay.it/itm/276615432745](https://www.ebay.it/itm/274881085208) 
+
+![image](https://github.com/user-attachments/assets/6c5f2d2e-72bb-4171-a667-04f444b50714)
+
+and costycnc xbig [https://www.ebay.it/itm/275132244800](https://www.ebay.it/itm/274881043594)
+
+![image](https://github.com/user-attachments/assets/4d1c5900-1580-41ac-9253-30b772576bb4)
+
 with nema17 steppers motor
+
+![image](https://github.com/user-attachments/assets/3bdaaa8a-f745-44bd-9265-cf2f591602be)
 
 The firmware is same for all 4 machines ,difference is only $100,$101 and $102 steps/mm that for costycnc mini and hobby is 1024 and for
 costycnc medio and xbig is 100 
 
-All motors of 4 machines have 16 teeth head same as this ![image](https://github.com/user-attachments/assets/967aca78-469b-4e21-9c8b-d2f761daaaca)
+All motors of 4 machines have 16 teeth head same as this:
+
+![image](https://github.com/user-attachments/assets/967aca78-469b-4e21-9c8b-d2f761daaaca)
 
 To upload firmware to mks dlc32 board you can use https://espressif.github.io/esptool-js/
 
