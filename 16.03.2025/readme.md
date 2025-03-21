@@ -4,9 +4,10 @@
 
 ![image](https://github.com/user-attachments/assets/2e341f5f-2b04-482d-8212-6cd64c96645c)
 
-2.Attention !!! The firmare need to be write at 0x000 address (so ... need to change 0x1000 to 0x0000)
+2.Upload firmware for 28byj-48 or nema17 motors respectively!
 
-![image](https://github.com/user-attachments/assets/1605a431-d3b6-4e69-8237-f218a29441d3)
+![image](https://github.com/user-attachments/assets/7c5849ed-0ba5-4a1f-bec9-5907ba3ec62c)
+
 
 -------------------------------------------------------------------------------------
 
