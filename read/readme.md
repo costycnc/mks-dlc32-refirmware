@@ -6,5 +6,7 @@ Need begin read from 0x1000 lenght 3ff000  for 4mb ... and begin read from 0x100
 
 Until now i read only 4mb even if mks dlc32 have 8mb memory and not have problems ... until now i dont know if is wrong this!
 
-           16.05.25 Board Version: MKS DLC32 V2.1
-            Firmware: V2.30(8M.H35.20231206)
+           16.05.25 buy 5 pieces --- default wifi off - is set $esp115=on ,wifi is active and can connect, but after restart wifi off!!!
+           Board Version: MKS DLC32 V2.1
+           Firmware: V2.30(8M.H35.20231206)
+           16.05.25.bin
