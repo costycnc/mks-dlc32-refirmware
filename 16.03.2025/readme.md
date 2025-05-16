@@ -2,6 +2,9 @@
 
 1.To upload firmware to mks dlc32 board you can use https://espressif.github.io/esptool-js/
 
+        Board Version: MKS DLC32 CNC V2.0
+        Firmware: V2.1.0(8M.H24.20220511)
+
 ![image](https://github.com/user-attachments/assets/2e341f5f-2b04-482d-8212-6cd64c96645c)
 
 2.Upload firmware for 28byj-48 or nema17 motors respectively!
