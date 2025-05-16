@@ -10,3 +10,4 @@ Until now i read only 4mb even if mks dlc32 have 8mb memory and not have problem
            Board Version: MKS DLC32 V2.1
            Firmware: V2.30(8M.H35.20231206)
            16.05.25.bin
+![image](https://github.com/user-attachments/assets/861e8993-1b52-4cc7-baca-67449d3332c5)
