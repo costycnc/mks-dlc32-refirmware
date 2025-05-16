@@ -5,3 +5,6 @@ To upload firmware to mks dlc32 board you can use https://espressif.github.io/es
 Need begin read from 0x1000 lenght 3ff000  for 4mb ... and begin read from 0x1000 lenght 7ff000 for 8mb
 
 Until now i read only 4mb even if mks dlc32 have 8mb memory and not have problems ... until now i dont know if is wrong this!
+
+           16.05.25 Board Version: MKS DLC32 V2.1
+            Firmware: V2.30(8M.H35.20231206)
