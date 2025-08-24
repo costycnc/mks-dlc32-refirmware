@@ -226,6 +226,7 @@ dpi:
 
   </div>
   <div class="column">
+
            <input id="raport1" value="1" onchange="calculeaza1()" class="btn1">Rap X
       <hr>  <input id="raport2" value="1" onchange="calculeaza1()" disabled="" class="btn1">Rap Y
       <hr><input type="text" id="calcx" onchange="calculeaza()" class="btn1">Dim X(CM)
@@ -242,7 +243,7 @@ dpi:
 	  
 	  <a href="/index.html"><button class="btn">HOME PAGE</button><button onclick="saveTextAsFile()" class="btn">Save gcode</button></a>
 	  <hr>name file<input type="text" id="nfile" value="costycnc">.nc
-	  <a href="/command?commandText=%5BESP221%5D/costycnc.nc&PAGEID=0"><button class="btn">VIEW costycnc.nc</button></a><hr>
+	   <button id="pasteBtn">Paste SVG da Inkscape</button><hr>
 	  <input type="checkbox" id="contour" onchange="contoura();" class="btn1">only contour
   </div>
 </div>
@@ -254,13 +255,41 @@ dpi:
     </div>
 
 
- 
+ <script>
+async function pasteSvgFromClipboard() {
+    try {
+        const clipboardItems = await navigator.clipboard.read();
+
+        for (const item of clipboardItems) {
+            if (item.types.includes("image/svg+xml")) {
+                const blob = await item.getType("image/svg+xml");
+                const svgText = await blob.text();
+                const dataUrl = "data:image/svg+xml;base64," + btoa(svgText);
+
+                // Passa il Data URL a myFunction
+                myFunction(dataUrl);
+                return; // esce dopo il primo SVG trovato
+            }
+        }
+
+        alert("Nessun SVG trovato nella clipboard.");
+    } catch (err) {
+        console.error("Errore durante lettura clipboard:", err);
+        alert("Errore: assicurati di aver copiato un SVG e che il sito sia HTTPS.");
+    }
+}
+
+document.getElementById("pasteBtn").addEventListener("click", pasteSvgFromClipboard);
+</script>
 
 <script>
 var svg1=document.getElementById("svg");
 var svg2=document.getElementById("svgcode");
 var nome=document.getElementById("nome");
 var contourz=document.getElementById("contourz");
+
+
+
 
 function my(){
 
@@ -622,6 +651,19 @@ window.addEventListener('drop', function(e) {
 		console.log("event");
         var items = e.clipboardData.items;
         var file = items[0].type;
+if (file === 'image/svg+xml') {
+    console.log("SVG trovato!");
+
+    // item è items[0]
+    items[0].getAsString(function(svgText) {
+        // svgText è il contenuto reale del SVG
+        console.log("Contenuto SVG:", svgText);
+
+        // opzionale: trasformare in data URL
+        const dataUrl = "data:image/svg+xml;base64," + btoa(svgText);
+        myFunction(dataUrl);
+    });
+}
         if (file == "text/plain") {
           console.log("este text plain");
           const dT = e.clipboardData;
