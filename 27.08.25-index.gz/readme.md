@@ -7,3 +7,6 @@ Open menu About > Update WEBUI > Select file and upload files saves first
 ![image](https://github.com/costycnc/mks-dlc32-refirmware/blob/main/27.08.25-index.gz/salva.jpg?raw=true))
 
 
+https://espressif.github.io/esptool-js/
+
+
